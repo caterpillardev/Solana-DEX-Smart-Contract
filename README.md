@@ -388,13 +388,6 @@ Your contributions are not just welcome—they're essential for building the fut
 4. **Submit Pull Requests**: Detailed PRs with clear descriptions
 5. **Join the Discussion**: Engage with the community through issues and discussions
 
-## 📞 Support & Community
-
-- 🌐 **Sui Overflow 2025**: [Official Portal](https://overflowportal.sui.io/)
-- 💬 **Discord**: [Join the Hackathon Community](https://discord.com/invite/sui-hackathons)
-- 📧 **Issues**: Use GitHub issues in the respective repositories
-- 📅 **Office Hours**: Available through the Sui Foundation DevRel team
-
 ## 📄 License
 
 Both kits in the Sui Agent Kit Ecosystem are released under the MIT License, encouraging open collaboration and innovation in the Sui DeFi space.
