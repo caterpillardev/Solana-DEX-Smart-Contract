@@ -6,9 +6,9 @@
 
 **The Sui Agent Kit was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
-We believe that interacting with powerful DeFi protocols shouldn't be a complex ordeal. This kit is our answer: a robust, agent-friendly toolkit that abstracts the intricacies of the SDK's of multiple Sui Protocols , exposing its rich functionalities as a set of intuitive "tools" through the Model-Context Protocol (MCP).
+We've created a Model Context Protocol (MCP) implementation that standardizes how AI agents interact with Sui DeFi protocols. Our toolkit provides ready-to-use MCP tools that allow any AI agent to perform complex DeFi operations on Sui with just one click. We've integrated Navi, SuiSpring, and Suilend protocols into a unified interface, eliminating the need for developers to learn multiple SDKs or write custom integration code for each protocol.
 
-Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi/Suilend Protocol.
+Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi/Suilend Protocol .
 
 ## What is the Sui Agent Kit?
 The Sui Agent Kit is a Node.js server application built with TypeScript. It acts as a bridge, translating simple MCP tool calls into direct interactions with the different protocols on the Sui network
