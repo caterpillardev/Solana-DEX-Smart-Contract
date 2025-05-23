@@ -2,11 +2,11 @@
 
 [![Sui Overflow 2025 Submission - Infrastructure & Tooling Track](https://img.shields.io/badge/Sui_Overflow_2025-Infra_&_Tooling-blue?style=for-the-badge)](https://overflowportal.sui.io/)
 
-**The Sui Agent Kit Ecosystem was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
+**The Sui Agent Kit was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
-We believe that interacting with powerful DeFi protocols shouldn't be a complex ordeal. This ecosystem is our answer: a collection of robust, agent-friendly toolkits that abstract the intricacies of major Sui DeFi protocols, exposing their rich functionalities as intuitive "tools" through the Model-Context Protocol (MCP).
+We've created a Model Context Protocol (MCP) implementation that standardizes how AI agents interact with Sui DeFi protocols. Our toolkit provides ready-to-use MCP tools that allow any AI agent to perform complex DeFi operations on Sui with just one click. We've integrated Navi, SuiSpring, and Suilend protocols into a unified interface, but our goal is to expand this to all protocols in the Sui ecosystem. This eliminates the need for developers to learn multiple SDKs or write custom integration code for each protocol.
 
-Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui.
+Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi/Suilend Protocol.
 
 ## 🏗️ What is the Sui Agent Kit Ecosystem?
 
