@@ -1,12 +1,12 @@
-# # Sui Agent Kit 🤖🌊 - Your Gateway to Automated DeFi on Sui
+# Sui Agent Kit Ecosystem 🤖🌊 — Your Gateway to Automated DeFi on Sui
 
 [![Sui Overflow 2025 Submission - Infrastructure & Tooling Track](https://img.shields.io/badge/Sui_Overflow_2025-Infra_&_Tooling-blue?style=for-the-badge)](https://overflowportal.sui.io/)
-<img src="/public/banner.png" />
-**The Sui Agent Kit was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
-We've created a Model Context Protocol (MCP) implementation that standardizes how AI agents interact with Sui DeFi protocols. Our toolkit provides ready-to-use MCP tools that allow any AI agent to perform complex DeFi operations on Sui with just one click. We've integrated Navi, SuiSpring, and Suilend protocols into a unified interface, but our goal is to expand this to all protocols in the Sui ecosystem. This eliminates the need for developers to learn multiple SDKs or write custom integration code for each protocol.
+**The Sui Agent Kit Ecosystem was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
-Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi/Suilend Protocol.
+We believe that interacting with powerful DeFi protocols shouldn't be a complex ordeal. This ecosystem is our answer: a collection of robust, agent-friendly toolkits that abstract the intricacies of major Sui DeFi protocols, exposing their rich functionalities as intuitive "tools" through the Model-Context Protocol (MCP).
+
+Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui.
 
 ## 🏗️ What is the Sui Agent Kit Ecosystem?
 
@@ -283,6 +283,47 @@ mcp-inspector --server sui-agent-kit --method tools/call --tool-name springSui_s
 mcp-inspector --server sui-agent-kit --method tools/call --tool-name suilend_getSuilendMarketAssets --tool-arg network=mainnet
 ```
 
+## 👥 Meet the Team
+
+**ParaDevs AI** - Building the future of DeFi automation on Sui
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 **Thiago Monteiro**
+**Project Manager and AI Developer**
+- **GitHub:** [SkiterH](https://github.com/SkiterH)
+- **X:** [@brazilliancare](https://x.com/brazilliancare)
+- **LinkedIn:** [Thiago Monteiro](https://www.linkedin.com/in/brazilliancare/)
+
+### 🔧 **Douglas de Oliveira**
+**Backend Engineer**
+- **GitHub:** [qquante](https://github.com/qquante)
+- **X:** [@qquantebuild](https://x.com/qquantebuild)
+- **LinkedIn:** [Douglas de Oliveira](https://www.linkedin.com/in/douglas-silva-data-analyst/)
+
+</td>
+<td width="50%">
+
+### ⛓️ **Rômulo Prado**
+**Blockchain Developer**
+- **GitHub:** [DeaG1](https://github.com/DeaG1)
+- **X:** [@DeaG_NFT](https://x.com/DeaG_NFT)
+- **LinkedIn:** [Rômulo Prado](https://www.linkedin.com/in/rômulo-prado-27017b1bb/)
+
+### 💻 **Victor Daniel Ramos Bessa**
+**Developer**
+- **GitHub:** [victordanielrb](https://github.com/victordanielrb)
+- **X:** [@vyxozcrypto](https://x.com/vyxozcrypto)
+- **LinkedIn:** [Victor Daniel Ramos Bessa](https://www.linkedin.com/public-profile/settings)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🚀 Project Status & Roadmap
 
 ### ✅ **Current Status (Sui Overflow 2025 MVP)**
@@ -320,9 +361,11 @@ mcp-inspector --server sui-agent-kit --method tools/call --tool-name suilend_get
 - 🌍 **Community Ecosystem**: Plugin architecture for community-contributed protocol integrations
 - 🎯 **Strategy Marketplace**: Sharable and monetizable DeFi strategies
 
-## 🤝 Contributing
+## 👥 Meet the Team
 
-This ecosystem was built for the Sui Overflow 2025 Hackathon with a vision of community collaboration! Whether you're:
+**ParaDevs AI** - Building the future of DeFi automation on Sui
+
+<table
 
 - 🐛 **Reporting bugs** in either kit
 - 💡 **Suggesting new features** or protocol integrations
