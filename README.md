@@ -312,11 +312,11 @@ mcp-inspector --server sui-agent-kit --method tools/call --tool-name suilend_get
 - **X:** [@DeaG_NFT](https://x.com/DeaG_NFT)
 - **LinkedIn:** [Rômulo Prado](https://www.linkedin.com/in/rômulo-prado-27017b1bb/)
 
-### 💻 **Victor Daniel Ramos Bessa**
+### 💻 **Victor Bessa**
 **Developer**
 - **GitHub:** [victordanielrb](https://github.com/victordanielrb)
 - **X:** [@vyxozcrypto](https://x.com/vyxozcrypto)
-- **LinkedIn:** [Victor Daniel Ramos Bessa](https://www.linkedin.com/public-profile/settings)
+- **LinkedIn:** [Victor Bessa](https://www.linkedin.com/public-profile/settings)
 
 </td>
 </tr>
