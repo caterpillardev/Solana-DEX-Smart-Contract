@@ -1,7 +1,7 @@
-# Sui Agent Kit Ecosystem 🤖🌊 — Your Gateway to Automated DeFi on Sui
+# # Sui Agent Kit 🤖🌊 - Your Gateway to Automated DeFi on Sui
 
 [![Sui Overflow 2025 Submission - Infrastructure & Tooling Track](https://img.shields.io/badge/Sui_Overflow_2025-Infra_&_Tooling-blue?style=for-the-badge)](https://overflowportal.sui.io/)
-
+<img src="/public/banner.png" />
 **The Sui Agent Kit Ecosystem was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
 We believe that interacting with powerful DeFi protocols shouldn't be a complex ordeal. This ecosystem is our answer: a collection of robust, agent-friendly toolkits that abstract the intricacies of major Sui DeFi protocols, exposing their rich functionalities as intuitive "tools" through the Model-Context Protocol (MCP).
