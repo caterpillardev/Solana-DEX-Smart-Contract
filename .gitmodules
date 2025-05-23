@@ -1,0 +1,6 @@
+[submodule "SuiLend-SuiSpring"]
+	path = SuiLend-SuiSpring
+	url = https://github.com/ParaDevsAI/Sui-Agent-Kit-SuiLend-SuiSpring.git
+[submodule "Navi"]
+	path = Navi
+	url = https://github.com/ParaDevsAI/Sui-Agent-Kit-Navi.git
