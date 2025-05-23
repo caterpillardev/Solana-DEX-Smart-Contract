@@ -15,18 +15,18 @@ The Sui Agent Kit is a Node.js server application built with TypeScript. It acts
 
 ## Use Cases 
 
- ###🌟 Dominate the Infrastructure & Tooling Track: This kit is infrastructure! Showcase a powerful tool that lowers the barrier to entry for Navi Protocol integration and enables a new wave of automated DeFi applications.
+ - 🌟 Dominate the Infrastructure & Tooling Track: This kit is infrastructure! Showcase a powerful tool that lowers the barrier to entry for Navi Protocol integration and enables a new wave of automated DeFi applications.
 
- ###🚀 Accelerate Your DeFi & AI Projects: Building for the DeFi or AI tracks? Integrate complex Navi operations (lending, borrowing, swaps, liquid staking) with just a few tool calls. Focus on your unique application logic, not SDK boilerplate.
+ - 🚀 Accelerate Your DeFi & AI Projects: Building for the DeFi or AI tracks? Integrate complex Navi operations (lending, borrowing, swaps, liquid staking) with just a few tool calls. Focus on your unique application logic, not SDK boilerplate.
 
-###🤖 Build Smarter Agents: The MCP-based architecture is perfect for creating intelligent agents that can manage portfolios, execute DeFi strategies, or provide automated financial services on Sui.
+- 🤖 Build Smarter Agents: The MCP-based architecture is perfect for creating intelligent agents that can manage portfolios, execute DeFi strategies, or provide automated financial services on Sui.
 
-###💡 Innovate with Ease: Quickly experiment with novel DeFi strategies by scripting interactions with Navi Protocol.
+- 💡 Innovate with Ease: Quickly experiment with novel DeFi strategies by scripting interactions with Navi Protocol.
 
 ###🛠️ Focus on Value: Spend less time wrestling with SDKs and more time building the features that will impress the judges.
 
 ## What is the Sui Agent Kit?
-The Sui Agent Kit is a Node.js server application built with TypeScript. It acts as a bridge, translating simple MCP tool calls into direct interactions with the Navi Protocol on the Sui network
+The Sui Agent Kit is a Node.js server application built with TypeScript. It acts as a bridge, translating simple MCP tool calls into direct interactions with the different protocols on the Sui network
 
 # Our team
 
