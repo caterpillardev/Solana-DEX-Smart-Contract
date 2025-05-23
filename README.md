@@ -9,7 +9,7 @@ We believe that interacting with powerful DeFi protocols shouldn't be a complex 
 
 Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi Protocol.
 
-Why Sui Agent Kit? The Hackathon Edge 🚀
+# Why Sui Agent Kit? The Hackathon Edge 🚀
 If you're participating in the Sui Overflow 2025 Hackathon, the Sui Agent Kit is designed to give you a significant advantage:
 
 🌟 Dominate the Infrastructure & Tooling Track: This kit is infrastructure! Showcase a powerful tool that lowers the barrier to entry for Navi Protocol integration and enables a new wave of automated DeFi applications.
