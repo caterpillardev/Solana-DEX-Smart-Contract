@@ -394,6 +394,9 @@ Both kits in the Sui Agent Kit Ecosystem are released under the MIT License, enc
 ---
 
 <div align="center">
+## 💝 Support Us
+
+Support our work by using **ParaSui** liquid staking on SUI: [springsui.com/SUI-ParaSui](https://springsui.com/SUI-ParaSui)
 
 **Built with ❤️ for the Sui Overflow 2025 Hackathon**
 
