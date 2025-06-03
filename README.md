@@ -8,6 +8,7 @@ We've created a Model Context Protocol (MCP) implementation that standardizes ho
 
 Our mission is to provide the foundational infrastructure that enables developers to rapidly prototype, build, and deploy sophisticated DeFi applications, automation scripts, and AI-powered agents on Sui, with a special focus on leveraging the deep liquidity and features of the Navi/Suilend Protocol.
 
+[![Video](https://img.youtube.com/vi/mPq3Kvj14hU/maxresdefault.jpg)](https://www.youtube.com/watch?v=mPq3Kvj14hU)
 ## 🤖 What is MCP (Model Context Protocol)?
 MCP is the bridge between AI and blockchain. It's a standardized communication protocol that allows AI agents to interact with external systems through simple "tool calls" - no complex coding required.
 In simple terms: Instead of AI agents needing to learn dozens of different APIs and SDKs, MCP provides one universal language. For DeFi, this means an AI can say "deposit 100 USDC" and MCP handles all the blockchain complexity behind the scenes.
