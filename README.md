@@ -24,7 +24,7 @@ The Sui Agent Kit Ecosystem consists of **two specialized Node.js server applica
 <td width="50%" align="center">
 
 ### **Navi Protocol Kit**
-**🔗 [Repository Link](https://github.com/ParaDevsAI/Sui-Agent-Kit-Navi)**
+**🔗 [Repository Link](https://github.com/0xzepdev/Sui-AI-Agent-Kit-Navi)**
 
 **Specialized for:**
 - Navi Protocol lending & borrowing
@@ -38,7 +38,7 @@ The Sui Agent Kit Ecosystem consists of **two specialized Node.js server applica
 <td width="50%" align="center">
 
 ### **SuiLend + SuiSpring Kit**
-**🔗 [Repository Link](https://github.com/ParaDevsAI/Sui-Agent-Kit-SuiLend-SuiSpring)**
+**🔗 [Repository Link](https://github.com/0xzepdev/Sui-AI-Agent-Kit-SuiLend-SuiSpring)**
 
 **Specialized for:**
 - SuiLend lending markets
@@ -52,15 +52,15 @@ The Sui Agent Kit Ecosystem consists of **two specialized Node.js server applica
 </tr>
 </table>
 
-## 🎯 Unified Use Cases Across the Ecosystem
+## Unified Use Cases Across the Ecosystem
 
-*   **🤖 Automated Portfolio Rebalancer:** Cross-protocol agents that monitor health factors and automatically manage positions across Navi and SuiLend
-*   **🌾 Multi-Protocol Yield Farming:** Agents that identify the highest yields across Navi, SuiLend, and various LST providers, automatically moving funds
-*   **📊 Unified DeFi Dashboard:** Web interfaces that aggregate data from both kits to provide comprehensive portfolio views
-*   **🧠 AI-Powered Financial Advisors:** Advanced agents that analyze opportunities across the entire Sui DeFi ecosystem
-*   **⚖️ Cross-Protocol Arbitrage:** Sophisticated bots that exploit price differences between Navi and SuiLend markets
+*   ** Automated Portfolio Rebalancer:** Cross-protocol agents that monitor health factors and automatically manage positions across Navi and SuiLend
+*   ** Multi-Protocol Yield Farming:** Agents that identify the highest yields across Navi, SuiLend, and various LST providers, automatically moving funds
+*   ** Unified DeFi Dashboard:** Web interfaces that aggregate data from both kits to provide comprehensive portfolio views
+*   ** AI-Powered Financial Advisors:** Advanced agents that analyze opportunities across the entire Sui DeFi ecosystem
+*   ** Cross-Protocol Arbitrage:** Sophisticated bots that exploit price differences between Navi and SuiLend markets
 
-## 🌊 Navi Protocol Kit - Deep Dive
+## Navi Protocol Kit - Deep Dive
 
 ### Core Architecture
 ```
@@ -78,33 +78,33 @@ navi-mcp-server/
 └── package.json
 ```
 
-### 🔥 Key Features & Capabilities
+### Key Features & Capabilities
 
-**📊 Portfolio Management:**
+**Portfolio Management:**
 - `navi_getAgentPortfolio`: Retrieve current supply and borrow balances
 - `navi_getAgentHealthFactor`: Check the agent's health factor
 - `navi_getAgentDynamicHealthFactor`: Predict health factor after hypothetical changes
 
-**🌊 Lending Pool Interactions:**
+**Lending Pool Interactions:**
 - `navi_depositAsset`: Deposit SUI, USDC, USDT, etc., as collateral
 - `navi_withdrawAsset`: Withdraw deposited assets
 - `navi_borrowAsset`: Borrow assets against collateral
 - `navi_repayDebt`: Repay borrowed amounts
 
-**💱 Token Swaps (via NAVI Aggregator):**
+**Token Swaps (via NAVI Aggregator):**
 - `navi_getSwapQuote`: Get quotes for asset swaps
 - `navi_executeSwap`: Execute token swaps
 
-**💧 Liquid Staking (vSUI):**
+**Liquid Staking (vSUI):**
 - `navi_stakeSuiForVSui`: Stake SUI to receive vSUI (VoloSui)
 - `navi_unstakeVSuiForSui`: Unstake vSUI to receive SUI back
 
-**💰 Rewards Management:**
+**Rewards Management:**
 - `navi_getAgentAvailableRewards`: Check for unclaimed rewards
 - `navi_claimAllAgentRewards`: Claim all available rewards
 - `navi_getAgentRewardsHistory`: View history of claimed rewards
 
-**📈 Market Data:**
+**Market Data:**
 - `navi_getPoolInfoBySymbol`: Get details for specific asset pools
 - `navi_getAllPoolsInfo`: Get details for all available asset pools
 - `navi_getReserveDetail`: Get in-depth reserve information
@@ -115,7 +115,7 @@ navi-mcp-server/
 2. **Sui Wallet:** Mnemonic or private key with SUI for gas fees
 3. **Clone Repository:**
    ```bash
-   git clone https://github.com/ParaDevsAI/Sui-Agent-Kit-Navi/
+   git clone https://github.com/0xzepdev/Sui-Agent-Kit-Navi/
    cd Sui-Agent-Kit-Navi/navi-mcp-server
    ```
 
@@ -135,7 +135,7 @@ navi-mcp-server/
    node dist/index.js
    ```
 
-## 🏦 SuiLend + SuiSpring Kit - Deep Dive
+## SuiLend + SuiSpring Kit - Deep Dive
 
 ### Core Architecture
 ```
@@ -159,7 +159,7 @@ sui-agent-kit-suispring-suilend/
 
 ### 🔥 Key Features & Capabilities
 
-**☯️ MystenSui (Core Sui Functionality):**
+**MystenSui (Core Sui Functionality):**
 - `mystenSui_getSuiBalance`: Fetch SUI balance for the agent wallet
 - `mystenSui_getTokenMetadata`: Retrieve detailed token metadata
 - `mystenSui_getUserTokenBalance`: Get specific token balances
@@ -168,7 +168,7 @@ sui-agent-kit-suispring-suilend/
 - `mystenSui_transferFungTokensToMany`: Batch token transfers
 - `mystenSui_getUserRecentTxs`: Fetch recent transaction history
 
-**🌱 SuiSpring (Liquid Staking):**
+**SuiSpring (Liquid Staking):**
 - `springSui_discoverLstPools`: Discover available LST pools
 - `springSui_getLstSuiExchangeRate`: Get LST to SUI exchange rates
 - `springSui_getUserLstDetails`: Fetch user LST position details
@@ -177,7 +177,7 @@ sui-agent-kit-suispring-suilend/
 - `springSui_stakeSuiForParaSui`: Specifically stake for ParaSUI
 - `springSui_redeemSpringSuiLstForSui`: Redeem LSTs back to SUI
 
-**🏦 Suilend (Lending & Borrowing):**
+**Suilend (Lending & Borrowing):**
 - `suilend_getSuilendMarketAssets`: List supported assets and metrics
 - `suilend_ensureSuilendObligation`: Create/check loan accounts
 - `suilend_getUserObligationInfo`: Get obligation IDs for operations
@@ -188,7 +188,7 @@ sui-agent-kit-suispring-suilend/
 - `suilend_repayToSuilend`: Repay borrowed assets
 - `suilend_getObligationHistory`: Fetch transaction history
 
-**🛠️ Common Utilities:**
+**Common Utilities:**
 - `common_formatTokenAmount`: Convert raw amounts to readable strings
 - `common_parseTokenAmount`: Convert readable strings to raw amounts
 - `common_shortenAddress`: Shorten addresses for display
@@ -200,7 +200,7 @@ sui-agent-kit-suispring-suilend/
 2. **Sui Wallet:** Private key in Bech32 format (starting with `suiprivkey1...`)
 3. **Clone Repository:**
    ```bash
-   git clone https://github.com/ParaDevsAI/Sui-Agent-Kit-SuiLend-SuiSpring
+   git clone https://github.com/0xzepdev/Sui-AI- Agent-Kit-SuiLend-SuiSpring
    cd Sui-Agent-Kit-SuiLend-SuiSpring
    ```
 
@@ -290,97 +290,45 @@ mcp-inspector --server sui-agent-kit --method tools/call --tool-name suilend_get
 
 ## 👥 Meet the Team
 
-**ParaDevs AI** - Building the future of DeFi automation on Sui
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 **Thiago Monteiro**
-**Project Manager and AI Developer**
-- **GitHub:** [SkiterH](https://github.com/SkiterH)
-- **X:** [@brazilliancare](https://x.com/brazilliancare)
-- **LinkedIn:** [Thiago Monteiro](https://www.linkedin.com/in/brazilliancare/)
-
-### 🔧 **Douglas de Oliveira**
-**Backend Engineer**
-- **GitHub:** [qquante](https://github.com/qquante)
-- **X:** [@qquantebuild](https://x.com/qquantebuild)
-- **LinkedIn:** [Douglas de Oliveira](https://www.linkedin.com/in/douglas-silva-data-analyst/)
-
-</td>
-<td width="50%">
-
-### ⛓️ **Rômulo Prado**
-**Blockchain Developer**
-- **GitHub:** [DeaG1](https://github.com/DeaG1)
-- **X:** [@DeaG_NFT](https://x.com/DeaG_NFT)
-- **LinkedIn:** [Rômulo Prado](https://www.linkedin.com/in/rômulo-prado-27017b1bb/)
-
-### 💻 **Victor Bessa**
-**Developer**
-- **GitHub:** [victordanielrb](https://github.com/victordanielrb)
-- **X:** [@vyxozcrypto](https://x.com/vyxozcrypto)
-- **LinkedIn:** [Victor Bessa](https://www.linkedin.com/public-profile/settings)
-
-</td>
-</tr>
-</table>
-
 ---
 
-## 🚀 Project Status & Roadmap
+## Project Status & Roadmap
 
-### ✅ **Current Status (Sui Overflow 2025 MVP)**
+### **Current Status (Sui Overflow 2025 MVP)**
 
 **Navi Protocol Kit:**
-- ✅ Complete MCP server implementation
-- ✅ Full Navi SDK integration
-- ✅ All core lending/borrowing operations
-- ✅ NAVI Aggregator swap functionality
-- ✅ VoloSui liquid staking
-- ✅ Comprehensive portfolio management
-- ✅ Rewards system integration
+- Complete MCP server implementation
+- Full Navi SDK integration
+- All core lending/borrowing operations
+- NAVI Aggregator swap functionality
+- VoloSui liquid staking
+- Comprehensive portfolio management
+- Rewards system integration
 
 **SuiLend + SuiSpring Kit:**
-- ✅ Robust MCP server with Zod validation
-- ✅ Complete SuiLend integration
-- ✅ Full SuiSpring LST support
-- ✅ Core Sui operations
-- ✅ Advanced SDK client management
-- ✅ Comprehensive testing framework
-- ⚠️ Steamm DEX integration (planned but disabled for MVP)
+- Robust MCP server with Zod validation
+- Complete SuiLend integration
+- Full SuiSpring LST support
+- Core Sui operations
+- Advanced SDK client management
+- Comprehensive testing framework
+- Steamm DEX integration (planned but disabled for MVP)
 
-### 🌟 **Future Roadmap**
+### -**Future Roadmap**
 
 **Immediate Post-Hackathon:**
-- 🔄 **Cross-Kit Integration**: Enable agents to operate across both protocols simultaneously
-- 🌐 **Steamm DEX Integration**: Complete robust DEX functionality in the SuiLend kit
-- 🧪 **Enhanced Testing**: Comprehensive unit and integration test coverage
-- 📚 **Documentation Expansion**: In-depth guides and tutorials
+- **Cross-Kit Integration**: Enable agents to operate across both protocols simultaneously
+- **Steamm DEX Integration**: Complete robust DEX functionality in the SuiLend kit
+- **Enhanced Testing**: Comprehensive unit and integration test coverage
+- **Documentation Expansion**: In-depth guides and tutorials
 
 **Long-term Vision:**
-- 🤖 **AI Agent Showcases**: Pre-built intelligent agents demonstrating advanced strategies
-- 🔐 **Enterprise Security**: Multi-sig and permission-based execution frameworks
-- 📡 **Real-time Events**: On-chain event streaming for reactive decision-making
-- 🌍 **Community Ecosystem**: Plugin architecture for community-contributed protocol integrations
-- 🎯 **Strategy Marketplace**: Sharable and monetizable DeFi strategies
+- **AI Agent Showcases**: Pre-built intelligent agents demonstrating advanced strategies
+- **Enterprise Security**: Multi-sig and permission-based execution frameworks
+- **Real-time Events**: On-chain event streaming for reactive decision-making
+- **Community Ecosystem**: Plugin architecture for community-contributed protocol integrations
+- **Strategy Marketplace**: Sharable and monetizable DeFi strategies
 
-## 👥 Meet the Team
-
-**ParaDevs AI** - Building the future of DeFi automation on Sui
-
-<table
-
-- 🐛 **Reporting bugs** in either kit
-- 💡 **Suggesting new features** or protocol integrations
-- 📖 **Improving documentation** and tutorials
-- 🔧 **Contributing code** for new tools or optimizations
-- 🌐 **Adding new protocol support** to expand the ecosystem
-
-Your contributions are not just welcome—they're essential for building the future of DeFi automation on Sui!
-
-### Getting Started with Contributions:
 
 1. **Choose Your Kit**: Pick the Navi kit or SuiLend+SuiSpring kit based on your interests
 2. **Fork the Repository**: Create your own fork of the relevant repository
@@ -388,22 +336,7 @@ Your contributions are not just welcome—they're essential for building the fut
 4. **Submit Pull Requests**: Detailed PRs with clear descriptions
 5. **Join the Discussion**: Engage with the community through issues and discussions
 
-## 📄 License
+## License
 
 Both kits in the Sui Agent Kit Ecosystem are released under the MIT License, encouraging open collaboration and innovation in the Sui DeFi space.
 
----
-
-<div align="center">
-
-## 💝 Support Us
-
-Support our work by using **ParaSui** liquid staking on SUI: [springsui.com/SUI-ParaSui](https://springsui.com/SUI-ParaSui)
-
-**Built with ❤️ for the Sui Overflow 2025 Hackathon**
-
-*Let's build the future of decentralized finance on Sui, together!*
-
-**🌊 [Navi Kit Repository](https://github.com/ParaDevsAI/Sui-Agent-Kit-Navi) | 🏦 [SuiLend+SuiSpring Kit Repository](https://github.com/ParaDevsAI/Sui-Agent-Kit-SuiLend-SuiSpring)**
-
-</div>
