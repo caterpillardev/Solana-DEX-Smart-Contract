@@ -1,4 +1,4 @@
-# Sui Agent Kit — Your Gateway to Automated DeFi on Sui
+# Sui Agent Kit — Automated DeFi, DeFAI on Sui
 
 [![Sui Overflow 2025 Submission - Infrastructure & Tooling Track](https://img.shields.io/badge/Sui_Overflow_2025-Infra_&_Tooling-blue?style=for-the-badge)](https://overflowportal.sui.io/)
 <img src="/public/banner.png" />
