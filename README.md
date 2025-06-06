@@ -1,7 +1,9 @@
-# Sui Agent Kit 🤖🌊 — Your Gateway to Automated DeFi on Sui
+# Sui Agent Kit — Your Gateway to Automated DeFi on Sui
 
 [![Sui Overflow 2025 Submission - Infrastructure & Tooling Track](https://img.shields.io/badge/Sui_Overflow_2025-Infra_&_Tooling-blue?style=for-the-badge)](https://overflowportal.sui.io/)
 <img src="/public/banner.png" />
+### [Telegram](https://t.me/oxzepdev)
+### [Telegram](https://x.com/0xzepdev)
 **The Sui Agent Kit was born from a passion to simplify DeFi development on the Sui blockchain and to empower builders like you for the Sui Overflow 2025 Hackathon!**
 
 We've created a Model Context Protocol (MCP) implementation that standardizes how AI agents interact with Sui DeFi protocols. Our toolkit provides ready-to-use MCP tools that allow any AI agent to perform complex DeFi operations on Sui with just one click. We've integrated Navi, SuiSpring, and Suilend protocols into a unified interface, but our goal is to expand this to all protocols in the Sui ecosystem. This eliminates the need for developers to learn multiple SDKs or write custom integration code for each protocol.
