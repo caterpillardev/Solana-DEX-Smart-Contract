@@ -26,7 +26,6 @@ The Sui Agent Kit Ecosystem consists of **two specialized Node.js server applica
 <td width="50%" align="center">
 
 ### **Navi Protocol Kit**
-**🔗 [Repository Link](https://github.com/0xzepdev/Sui-AI-Agent-Kit-Navi)**
 
 **Specialized for:**
 - Navi Protocol lending & borrowing
@@ -40,7 +39,6 @@ The Sui Agent Kit Ecosystem consists of **two specialized Node.js server applica
 <td width="50%" align="center">
 
 ### **SuiLend + SuiSpring Kit**
-**🔗 [Repository Link](https://github.com/0xzepdev/Sui-AI-Agent-Kit-SuiLend-SuiSpring)**
 
 **Specialized for:**
 - SuiLend lending markets
