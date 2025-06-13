@@ -1,0 +1,5 @@
+# Your Agent's Sui Wallet Private Key (Bech32 format)
+SUI_MAINNET_PRIVATE_KEY="suiprivkey1yourlongprivatekeystringgoeshere..."
+
+# Optional: Sui RPC URL (defaults to Mainnet if not set, or if protocol configs specify it)
+# SUI_RPC_URL="https://fullnode.mainnet.sui.io:443"
