@@ -11,6 +11,11 @@ It enables traders to benefit from deep liquidity, fast order matching, and effi
 - On-Chain Order Book: Provides transparent, decentralized, and permissionless trading.
 - Liquidity Optimization: Aggregates liquidity from both order book and Raydium’s AMM pools.
 - Composable & Modular: Easily integrates with other Solana-based DeFi applications.
+- Dynamic fees based on volatility and pool rebalancing mechanisms, up to 10% of swap amount
+- Permissionless pool creation with low fees (less than 0.1 SOL)
+- Migration tool for to transfer LP position from other AMMs
+- Token2022 support
+- Highly CU optimized for faster swaps
 
 ## How It Works
 - User Places an Order: Users can place limit or market orders on the on-chain order book.
